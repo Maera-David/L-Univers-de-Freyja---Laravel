@@ -85,6 +85,9 @@ header {
 .logo-menu {
     width: 100%;
     margin-bottom: 50px;
+    position: absolute;
+    top: 0;
+    height: 100px;
 }
 
 .logo a img {
@@ -613,6 +616,114 @@ footer {
     filter: blur(2px);
   }
 
+  /****** START CONTACT FORM ******/
+.contactForm {
+    background-color: #ffffff;
+    width: 530px;
+    margin: 0 auto 40px auto;
+    box-shadow: 4px 4px 10px #000;
+    padding: 0 0 40px 0;
+    border-radius: 15px;
+}
+
+.contactFormTitle {
+    background-color: #FF007F;
+    color: white;
+    height: 50px;
+    padding: 20px 0 0 0;
+    border-radius: 15px 15px 0 0;
+}
+
+input {
+    margin: 20px 0;
+    width: 300px;
+    border: none;
+    padding: 5px 0;
+    border-bottom: solid 1px #FF007F;
+    color: #FF007F;
+}
+
+#contact {
+    margin: 20px 0;
+    width: 300px;
+    border: none;
+    padding: 5px 0;
+    border-bottom: solid 1px #FF007F;
+    color: #FF007F;
+}
+
+.btnContact {
+    border: none;
+    background-color: #FF007F;
+    color: white;
+    height: 40px;
+    width: 150px;
+    font-size: 15px;
+    box-shadow: 4px 4px 5px #E99999;
+    margin: 10px 0 0 0;
+    border-radius: 5px;
+}
+
+/****** MASSAGE ******/
+.massageBody {
+    background: white;
+    color: black;
+    margin: 0;
+}
+
+.massageP {
+    margin: 0 0 13px 0;
+    text-align: justify;
+}
+
+.center {
+    text-align: center;
+}
+
+.containerMassage {
+    width: 95%;
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+.massage {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    position: relative;
+}
+
+.massage_number {
+    color: #9FE855;
+    font-size: 10vw;
+    font-weight: 600;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    text-align: center;
+    height: calc(10vw + 20px);
+    transition: all 0.2s ease-in;
+}
+
+.massage_content {
+    border-top: 2px solid #FF007F;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-gap: 10px;
+    padding: 15px 0;
+}
+
+.massage_content .title {
+    font-weight: 600;
+}
+
+.massage_content .story {
+    line-height: 26px;
+}
+
+li {
+    text-align: justify;
+}
+
 
  /****** MEDIA QUERIES ******/
   @media (hover: none) {
@@ -686,50 +797,14 @@ footer {
     }
 }
 
-/****** START CONTACT FORM ******/
-.contactForm {
-    background-color: #ffffff;
-    width: 530px;
-    margin: 0 auto 40px auto;
-    box-shadow: 4px 4px 10px #000;
-    padding: 0 0 40px 0;
-    border-radius: 15px;
+@media (max-width: 600px) {
+    .episode_content {
+        grid-template-columns: 1fr;
+    }
 }
 
-.contactFormTitle {
-    background-color: #FF007F;
-    color: white;
-    height: 50px;
-    padding: 20px 0 0 0;
-    border-radius: 15px 15px 0 0;
-}
-
-input {
-    margin: 20px 0;
-    width: 300px;
-    border: none;
-    padding: 5px 0;
-    border-bottom: solid 1px #FF007F;
-    color: #FF007F;
-}
-
-#contact {
-    margin: 20px 0;
-    width: 300px;
-    border: none;
-    padding: 5px 0;
-    border-bottom: solid 1px #FF007F;
-    color: #FF007F;
-}
-
-.btnContact {
-    border: none;
-    background-color: #FF007F;
-    color: white;
-    height: 40px;
-    width: 150px;
-    font-size: 15px;
-    box-shadow: 4px 4px 5px #E99999;
-    margin: 10px 0 0 0;
-    border-radius: 5px;
+@media (max-width: 576px) {
+    .episode_content .story {
+        font-size: 15px;
+    }
 }

@@ -40,7 +40,7 @@
                             </li>
 
                             <li>
-                                <a href="massage.html" id="nav_massage">Massage</a>
+                                <a href="{{ Route('massage') }}" id="nav_massage">Massage</a>
                             </li>
 
                             <!-- MENU DEROULANT -->
@@ -89,7 +89,7 @@
             <div id="div-menu-hide">
                 <nav class="nav-burger">
                     <ul>
-                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="{{ asset('ressources/views/index.blade.php') }}">Accueil</a></li>
                         <li><a href="lithotherapy.html">Lithothérapie</a></li>
                         <li><a href="candles.html">Cire</a></li>
                         <li><a href="beauty.html">Produits de beauté</a></li>

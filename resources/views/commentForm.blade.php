@@ -1,14 +1,13 @@
 @extends('template.app')
 
 @section('content')
-    <form class="contactForm" action="{{ Route('contactSend') }}" method="POST">
+    <form class="contactForm" action="{{ Route('commentForm') }}" method="POST">
         @csrf
         <h1 class="contactFormTitle">Contactez-moi !</h1>
         <input name="Nom" type="text" placeholder="Nom/Prénom/Pseudo" />
-        <br />
-        <input name="Mail" type="email" placeholder="E-mail" />
-        <br />
-        <input name="Objet" type="text" placeholder="Objet" />
+        @error('Nom')
+            <div class="alert alert-danger">{{ $message }}</div>
+        @enderror
         <br />
         <textarea name="Contenu" id="contact" type="text" placeholder="Votre message ici !"></textarea>
         <br />

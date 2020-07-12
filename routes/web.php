@@ -23,6 +23,14 @@ Route::post('/contact', 'ContactController@sendMail')->name('contactSend');
 
 Route::view('/crystals', 'lithotherapygrid')->name('lithotherapygrid');
 
+Route::view('/massage', 'massage')->name('massage');
+
+Route::view('/comment', 'commentForm')->name('commentForm');
+
+Route::post('/comment', 'CommentController@saveComment')->name('commentSend');
+
+Route::get('/livre-dor', 'CommentController@showAll')->name('goldBook');
+
 // $router->get('/', ['as' => 'index', function () {
 //     return view('index');
 // }]);
