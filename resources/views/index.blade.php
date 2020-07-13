@@ -45,7 +45,7 @@
             <div class="text-courant-decale">
                 <h3>Massage energétique</h3>
                 <p>Massage détente, qui tends à stimuler ou à relaxer. Cela permet de faire circuler le sang et les énergies.<br><br></p>
-                <div class="en-savoir-plus"><a href="massage.html">En savoir +</a></div>
+                <div class="en-savoir-plus"><a href="{{ Route('massage') }}">En savoir +</a></div>
             </div>
         </div>
 
@@ -76,14 +76,14 @@
             <img src="{{ asset('assets/img/DEESSE_001.png') }}" alt="Photo lithotherapie">
         </div>
 
-        <div class="container-photo-text">
+        <!-- <div class="container-photo-text">
             <img src="{{ asset('assets/img/NATURELLEMENT_BIEN_001.jpg') }}" alt="Photo massage">
             <div class="text-courant-decale">
                 <h3>Bien-être</h3>
                 <p>Venez découvrir comment être Naturellement Bien avec Myriam.<br><br></p>
                 <div class="en-savoir-plus"><a href="beauty.html">En savoir +</a></div>
             </div>
-        </div>
+        </div>-->
 
     </div>
 </main>

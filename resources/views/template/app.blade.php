@@ -10,6 +10,7 @@
     <meta name="author" content="Maëra DAVID">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/img/FAVICON_LOGO/FAVICON.ico') }}">
 </head>
 
 <body class="index">
@@ -47,25 +48,25 @@
                             <li class="menu-deroulant" id="nav_lithotherapy">
                                 <a href="lithotherapy.html">Lithotherapie</a>
                                 <ul class="menu-deroulant-content flex">
-                                    <li><a href="lithotherapyGrid.html"></a>Nos pierres</li>
+                                    <li><a href="{{ Route('lithotherapygrid') }}"></a>Nos pierres</li>
                                 </ul>
                             </li>
 
                             <!-- MENU NON-DEROULANT -->
                             <li>
-                                <a href="candles.html" id="nav_candles">Cire</a>
+                                <a href="{{ Route('cire') }}" id="nav_candles">Cire</a>
                             </li>
 
                             <!-- MENU DEROULANT -->
                             <li class="menu-deroulant" id="nav_beauty">
-                                <a href="beauty.html">Produits de beauté</a>
+                                <a href="{{ Route('beauty') }}">Soins beauté</a>
                                 <ul class="menu-deroulant-content flex">
                                     <li><a href="deesse.html"></a>Déesse</li>
                                 </ul>
                             </li>
 
                             <li>
-                                <a href="wellbeing.html" id="nav_wellbeing">Bien-être</a>
+                                <a href="{{ Route('goldBook') }}" id="nav_wellbeing">Livre d'Or</a>
                             </li>
                         </ul>
                     </nav>
@@ -92,8 +93,8 @@
                         <li><a href="{{ asset('ressources/views/index.blade.php') }}">Accueil</a></li>
                         <li><a href="lithotherapy.html">Lithothérapie</a></li>
                         <li><a href="candles.html">Cire</a></li>
-                        <li><a href="beauty.html">Produits de beauté</a></li>
-                        <li><a href="wellbeing.html">Bien-être</a></li>
+                        <li><a href="beauty.html">Soins beauté</a></li>
+                        <li><a href="wellbeing.html">Livre d'Or</a></li>
                     </ul>
                 </nav>
             </div>
@@ -110,7 +111,7 @@
         <div id="container-footer">
             <div class="text-footer">
                 <p>
-                    <a href="contact.html">Contact</a> - <span class="color-gold">Partagez :</span>
+                    <a href="{{ Route('contactForm') }}">Contact</a> - <span class="color-gold">Partagez :</span>
                 </p>
                 <div class="logos-reseaux" id="logos-reseaux">
                     <a href="https://www.facebook.com/universdefreyja/" target="blank" title="Facebook"><img src="image/logo_facebook" alt="Logo Facebook"></a>

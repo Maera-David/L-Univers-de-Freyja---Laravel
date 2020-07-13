@@ -2,12 +2,15 @@
 
 @section('content')
 @foreach ($comments as $comment)
-<div>
-    <ol>
-    <li>{{ $comment->name }}</li>
-    <li>{{ $comment->comment }}</li>
-    </ol>
-</div>
-
+<ul class="comments">
+    <li class="comment">
+        <div class="comment-text">
+            <div class="author">{{ $comment->name }}</div>
+            <p>
+                {{ $comment->comment }}
+            </p>
+        </div>
+    </li>
+</ul>
 @endforeach
 @endsection

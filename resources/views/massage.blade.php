@@ -76,49 +76,49 @@
                 <p class="massageP">
                     <ul>Niveau corporel :</ul>
 
-                    <li> Peau : texture et qualité de peau améliorée;</li>
-                    <li>Système musculaire : relâchement des tensions, récupération sportive, diminution inflammatoire;</li>
-                    <li>Système ostéo-articulaire : souplesse, mobilité, maux de dos, arthrose, etc;</li>
-                    <li>Système circulatoire : retour veineux stimulé, drainage, élimination des toxines, stimulation de la circulation artérielle, tension artérielle et fréquence cardiaque diminuées;</li>
-                    <li>Système lymphatique : amélioration de la circulation (détoxination, celullite, oedèmes, ..);</li>
-                    <li>Système digestif : meilleure digestion liée à la stimulation des sucs gastriques, stimulation des fonctions d’élimination;</li>
-                    <li>Système respiratoire : allongement et approfondissement de la respiration;</li>
-                    <li>Système nerveux : effet apaisant (le + souvent) ou au contraire dynamisant;</li>
-                    <li>Système hormonal : diminution du taux de cortisol et augmentation du taux d’ocytocine dans le sang;</li>
-                    <li>Amélioration de la résistance immunitaire;</li>
-                    <li>Amélioration de la qualité du sommeil;</li>
-                    <li>Diminution des douleurs chroniques (migraines, grands brûlés, fibromyalgie, cancer..);</li>
-                    <li>Développement sensoriel (surtout tactile).</li>
+                    <li class="li-massage"> Peau : texture et qualité de peau améliorée;</li>
+                    <li class="li-massage">Système musculaire : relâchement des tensions, récupération sportive, diminution inflammatoire;</li>
+                    <li class="li-massage">Système ostéo-articulaire : souplesse, mobilité, maux de dos, arthrose, etc;</li>
+                    <li class="li-massage">Système circulatoire : retour veineux stimulé, drainage, élimination des toxines, stimulation de la circulation artérielle, tension artérielle et fréquence cardiaque diminuées;</li>
+                    <li class="li-massage">Système lymphatique : amélioration de la circulation (détoxination, celullite, oedèmes, ..);</li>
+                    <li class="li-massage">Système digestif : meilleure digestion liée à la stimulation des sucs gastriques, stimulation des fonctions d’élimination;</li>
+                    <li class="li-massage">Système respiratoire : allongement et approfondissement de la respiration;</li>
+                    <li class="li-massage">Système nerveux : effet apaisant (le + souvent) ou au contraire dynamisant;</li>
+                    <li class="li-massage">Système hormonal : diminution du taux de cortisol et augmentation du taux d’ocytocine dans le sang;</li>
+                    <li class="li-massage">Amélioration de la résistance immunitaire;</li>
+                    <li class="li-massage">Amélioration de la qualité du sommeil;</li>
+                    <li class="li-massage">Diminution des douleurs chroniques (migraines, grands brûlés, fibromyalgie, cancer..);</li>
+                    <li class="li-massage">Développement sensoriel (surtout tactile).</li>
                 </p>
                     <br />
                 <p classe="massageP">
                     <ul>Niveau psychologique :</ul>
-                    <li>Relation au corps améliorée, restructuration du schéma corporel;</li>
-                    <li>Source de bien-être, plaisir • Diminution du stress, de l’anxiété, de la dépression, de la fatigue, des somatisations;</li>
-                    <li>Accélération du sevrage;</li>
-                    <li>Augmentation de la capacité de concentration, recentrage;</li>
-                    <li>Meilleure écoute des émotions;</li>
-                    <li>Meilleure connaissance de soi, de ses besoins réels;</li>
-                    <li>Amélioration de l’acceptation et de l’estime de soi;</li>
-                    <li>Régulation des troubles de l’humeur, TOC, TCA;</li>
-                    <li>Relation au plaisir améliorée;</li>
-                    <li>Détente, ouverture, abandon, lâcher-prise;</li>
-                    <li>Augmentation de la sérénité du fœtus en pré et post-natal et de la maman en pré et post-partum.</li>
+                    <li class="li-massage">Relation au corps améliorée, restructuration du schéma corporel;</li>
+                    <li class="li-massage">Source de bien-être, plaisir • Diminution du stress, de l’anxiété, de la dépression, de la fatigue, des somatisations;</li>
+                    <li class="li-massage">Accélération du sevrage;</li>
+                    <li class="li-massage">Augmentation de la capacité de concentration, recentrage;</li>
+                    <li class="li-massage">Meilleure écoute des émotions;</li>
+                    <li class="li-massage">Meilleure connaissance de soi, de ses besoins réels;</li>
+                    <li class="li-massage">Amélioration de l’acceptation et de l’estime de soi;</li>
+                    <li class="li-massage">Régulation des troubles de l’humeur, TOC, TCA;</li>
+                    <li class="li-massage">Relation au plaisir améliorée;</li>
+                    <li class="li-massage">Détente, ouverture, abandon, lâcher-prise;</li>
+                    <li class="li-massage">Augmentation de la sérénité du fœtus en pré et post-natal et de la maman en pré et post-partum.</li>
                 </p>
                     <br />
                 <p class="massageP">
                     <ul>Niveau relationnel :</ul>
-                    <li>En se donnant un temps pour soi, le receveur devient plus disponible pour les autres;</li>
-                    <li>Motivation, créativité;</li>
-                    <li>Relations affectives et sexuelles améliorées;</li>
-                    <li>Diminution de l’agressivité.</li>
+                    <li class="li-massage">En se donnant un temps pour soi, le receveur devient plus disponible pour les autres;</li>
+                    <li class="li-massage">Motivation, créativité;</li>
+                    <li class="li-massage">Relations affectives et sexuelles améliorées;</li>
+                    <li class="li-massage">Diminution de l’agressivité.</li>
                 </p>
                     <br />
                 <p class="massageP">
                     <ul>Niveau spirituel :</ul>
-                    <li>Certaines personnes le vivent comme une méditation;</li>
-                    <li>Conscience de soi;</li>
-                    <li>Harmonisation corps-esprit.</li>
+                    <li class="li-massage">Certaines personnes le vivent comme une méditation;</li>
+                    <li class="li-massage">Conscience de soi;</li>
+                    <li class="li-massage">Harmonisation corps-esprit.</li>
                 </p>
             </div>
         </div>

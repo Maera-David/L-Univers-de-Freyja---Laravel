@@ -31,6 +31,10 @@ Route::post('/comment', 'CommentController@saveComment')->name('commentSend');
 
 Route::get('/livre-dor', 'CommentController@showAll')->name('goldBook');
 
+Route::view('/bougies', 'cire')->name('cire');
+
+Route::view('/soins', 'beauty')->name('beauty');
+
 // $router->get('/', ['as' => 'index', function () {
 //     return view('index');
 // }]);
