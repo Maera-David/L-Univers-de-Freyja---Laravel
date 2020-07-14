@@ -49,25 +49,7 @@ header {
     z-index: 1;
 }
 
-/****** CONTAINER 1 ******/
-#container1-header {
-    width: 100%;
-    color: white;
-    font-family: 'Source Sans', sans-serif;
-    position: absolute;
-    display: flex;
-    display: -webkit-flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
-#container1-header p {
-    font-size: 14px;
-    padding-left: 15px;
-    word-spacing: 4px;
-    text-shadow: 2px 2px 2px grey;
-    padding-top: 4px;
-}
 
 /****** CONTAINER 2 - FOND BLANC ******/
 #container2-header {
@@ -75,8 +57,7 @@ header {
     background-color: rgba(255, 255, 255, 0.9);
     margin-top: 35px;
     height: 95px;
-    position: absolute;
-    left: 0;
+    margin-bottom: 35px;
 }
 
 /****** LOGO + PRINCIPAL MENU ******/

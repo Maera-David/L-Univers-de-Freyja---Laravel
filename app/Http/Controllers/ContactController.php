@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
+use App\Mail\Contact;
 
 class ContactController extends Controller
 {
@@ -14,10 +16,14 @@ class ContactController extends Controller
             'Contenu' => 'required'
         ]);
 
-        $this->build($request->all());
-    }
+        $message = (object)[
+            'from' => $request->Mail,
+            'name' => $request->Nom,
+            'object' => $request->Objet,
+            'content' => $request->Contenu
+        ];
+        $receiver = env('CONTACT_MAIL');
 
-    public function build($data) {
-        mail('mailSarah', $data['Objet'], $data['Contenu'], ['From' => $data['Mail']]);
+        Mail::to($receiver)->send(new Contact($message));
     }
 }
