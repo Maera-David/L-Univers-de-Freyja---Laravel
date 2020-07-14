@@ -21,7 +21,7 @@ Route::view('/contact', 'contactForm')->name('contactForm');
 
 Route::post('/contact', 'ContactController@sendMail')->name('contactSend');
 
-Route::view('/crystals', 'lithotherapygrid')->name('lithotherapygrid');
+Route::get('/crystals', 'LithotherapyController@grid')->name('lithotherapygrid');
 
 Route::view('/massage', 'massage')->name('massage');
 
@@ -34,6 +34,8 @@ Route::get('/livre-dor', 'CommentController@showAll')->name('goldBook');
 Route::view('/bougies', 'cire')->name('cire');
 
 Route::view('/soins', 'beauty')->name('beauty');
+
+Route::get('/crystals/{id}', 'LithotherapyController@getOne')->name('crystalDescription');
 
 // $router->get('/', ['as' => 'index', function () {
 //     return view('index');

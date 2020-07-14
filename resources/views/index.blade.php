@@ -63,7 +63,7 @@
             <div class="text-courant-decale">
                 <h3>Bougies</h3>
                 <p>Venez découvrir des cires pour bougie aux senteur ennivrantes.</p>
-                <div class="en-savoir-plus"><a href="candles.html">En savoir +</a></div>
+                <div class="en-savoir-plus"><a href="{{ Route('cire') }}">En savoir +</a></div>
             </div>
         </div>
 
@@ -73,7 +73,7 @@
                 <p>Découvrez la gamme de produits qui fera de vous une Déesse.</p>
                 <div class="en-savoir-plus"><a href="wellbeing.html">En savoir +</a></div>
             </div>
-            <img src="{{ asset('assets/img/DEESSE_001.png') }}" alt="Photo lithotherapie">
+            <img src="{{ asset('assets/img/FAVICON_LOGO/DEESSE_001.png') }}" alt="Photo lithotherapie">
         </div>
 
         <!-- <div class="container-photo-text">

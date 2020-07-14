@@ -54,10 +54,11 @@ header {
 /****** CONTAINER 2 - FOND BLANC ******/
 #container2-header {
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(248, 232, 245, 0.952);
     margin-top: 35px;
     height: 95px;
     margin-bottom: 35px;
+    border-radius: 10px;
 }
 
 /****** LOGO + PRINCIPAL MENU ******/
@@ -172,13 +173,13 @@ header #div-menu-block .principal-nav .menu-deroulant:hover .medu-deroulant-cont
 
 /****** ANIMATION, COLOR, SIZE *******/
 header #div-menu-block .principal-nav ul li a:hover, .menu-deroulant-content:hover {
-    color: #9FE855;
+    color: #FF007F;
     transition-duration: 0.4s;
 }
 
 /****** MENU BURGER ******/
 header #div-menu-hide .nav-burger ul li a:hover {
-    color: #9FE855;
+    color: #FF007F;
     transition-duration: 0.8s;
 }
 
@@ -195,44 +196,7 @@ main {
     margin-right: auto;
 }
 
-/****** CARROUSEL ******/
-/*#slideshow {
-    position: relative;
-    max-width: 960px;
-    height: 497px;
-    overflow: hidden;
-    margin-left: auto;
-    margin-right: auto;
-    z-index: 0;
-}
 
-#sContent {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 497px;
-    margin: 0;
-    padding: 0;
-
-    animation-name: AutoSlide;
-    animation-duration: 30s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-}
-
-@keyframes AutoSlide {
-    0%, 20%, 100% {
-        top: 0px;
-    }
-    30%, 40%, 80%, 90% {
-        top: -501px;
-    }
-    50%, 60% {
-        top: -1002px;
-    }
-}*/
-
-* {box-sizing:border-box}
 
 /* Slideshow container */
 .slideshow-container {
@@ -498,7 +462,7 @@ footer {
     width: 55%;
     float: right;
     background-color: #fdfdfd;
-    padding: 150px;
+    padding: auto;
 }
 
 .inner-container h1 {
@@ -514,14 +478,6 @@ footer {
     text-align: justify;
     padding: 0;
 }
-
-/*.skills {
-    display: flex;
-    justify-content: space-between;
-    font-weight: 700;
-    font-size: 13px;
-}*/
-
 
 /****** END ABOUT SECTION ******/
 
@@ -555,6 +511,7 @@ footer {
 
   .location-listing {
     position: relative;
+    width: 300px;
   }
 
   .location-image {
@@ -610,9 +567,7 @@ footer {
 .contactFormTitle {
     background-color: #FF007F;
     color: white;
-    height: 50px;
-    padding: 20px 0 0 0;
-    border-radius: 15px 15px 0 0;
+    border-radius: 15px 15px 15px 15px;
 }
 
 input {
@@ -736,7 +691,66 @@ input {
     margin: 0 0 1rem 0;
 }
 
- /****** MEDIA QUERIES ******/
+/****** CRYSTALS SHEET ******/
+.crystal-border {
+    border: 2px solid #523e6c;
+    background-color: #C1B3D3;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+  }
+
+  .img-crystal {
+    /*background: no-repeat top center;*/
+    width: 100%;
+    height: 250px;
+  }
+
+  .crystal-border a {
+    /* color: #968070; */
+    color: white;
+    text-decoration: none;
+    --webkit-transition: all 0.1s ease;
+    transition: all 0.1s ease;
+  }
+
+  .crystal-border a:hover {
+    color: white;
+    --webkit-transition: alla 0.1s ease;
+    transition: all 0.1s ease;
+  }
+
+  .crystal-title {
+    border-bottom: 2px solid #523e6c;
+    color: white;
+    text-shadow: 0 0 2px #000;
+    padding: 5px 20px;
+    font-family: 'Cinzel Decorative', serif;
+    font-size: 30px;
+    margin-top: 20px;
+  }
+
+  .crystal-border span {
+    font-family: 'Cinzel', serif;
+    color: white;
+    font-size: 16px;
+  }
+
+  .crystal-border p {
+    margin: 10px 20px;
+    text-align: justify;
+  }
+
+  .crystal-border p > q:before, .astree-cadre p > q:after {
+    content: '';
+  }
+
+
+/****** MEDIA QUERIES ******/
   @media (hover: none) {
     .location-title {
       opacity: 1;

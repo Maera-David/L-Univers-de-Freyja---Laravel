@@ -3,12 +3,12 @@
 @section('content')
 <body class="massageBody">
     <div class="containerMassage">
-        <h1 class="center">Les massages</h1>
+        <h1 class="center">Nos cires</h1>
 
         <article class="massage">
             <div class="massage_number">00</div>
             <div class="massage_content">
-                <div class="titleMassage">Les massages</div>
+                <div class="titleMassage">Les cires</div>
                 <div class="storyMassage">
                     <p class="massageP">
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, nemo voluptas! Nostrum quae laborum laudantium earum inventore assumenda dicta! Odio beatae facere ullam aut magnam eaque velit vero, dolorum dignissimos odit illum natus adipisci et excepturi laudantium eveniet deserunt temporibus sed earum? Eveniet, vitae. Libero, neque nemo impedit ex cum quia eaque nulla, consequuntur minima maxime repellat aliquam. Quod assumenda doloremque sed ea ipsum tempore consequuntur odio nemo magnam pariatur, deleniti aut quae officiis libero.
@@ -20,10 +20,10 @@
         <article class="massage">
             <div class="massage_number">01</div>
             <div class="massage_content">
-                <div class="titleMassage">Energétique</div>
+                <div class="titleMassage">Composition</div>
                 <div class="storyMassage">
                     <p class="massageP">
-                        Le massage energétique
+                        La composition de nos cires
                     </p>
                     <p class="massageP">
                         En visant l’harmonie du corps et de l’esprit, les massages énergétiques prévoient généralement un temps pour user de techniques de relaxation pure et un second temps pour effectuer des digito-pressions le long des méridiens, afin de provoquer le retour à l’équilibre du corps. Concrètement, et malgré son adjectif « énergétique », ils sont pratiqués avec douceur, afin de relâcher les tensions, de créer une sensation d’apaisement et de béatitude durable.
@@ -41,10 +41,10 @@
         <article class="massage">
             <div class="massage_number">02</div>
             <div class="massage_content">
-                <div class="titleMassage">Intuitif</div>
+                <div class="titleMassage">Parfum</div>
                 <div class="storyMassage">
                     <p class="massageP">
-                        Le massage intuitif
+                        Les odeurs de nos cires
                     </p>
                     <p class="massageP">
                         Le massage intuitif est un massage qui a pour but la relaxation et le bien-être de la personne. Il puise ses techniques dans le massage suédois, californien et énergétique mais il est pratiqué de manière intuitive. Le massage intuitif favorise la conscience de l'enveloppe corporelle et permet aux personnes de se remettre en lien avec leur corps et leurs sensations par des gestes doux et respectueux, il peut-être une aide à l'estime et à la réconciliation de soi.

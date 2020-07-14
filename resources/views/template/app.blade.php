@@ -48,7 +48,7 @@
                             <li class="menu-deroulant" id="nav_lithotherapy">
                                 <a href="lithotherapy.html">Lithotherapie</a>
                                 <ul class="menu-deroulant-content flex">
-                                    <li><a href="{{ Route('lithotherapygrid') }}"></a>Nos pierres</li>
+                                    <li class="submenu"><a href="{{ Route('lithotherapygrid') }}">Nos pierres</a></li>
                                 </ul>
                             </li>
 
@@ -61,7 +61,7 @@
                             <li class="menu-deroulant" id="nav_beauty">
                                 <a href="{{ Route('beauty') }}">Soins beauté</a>
                                 <ul class="menu-deroulant-content flex">
-                                    <li><a href="deesse.html"></a>Déesse</li>
+                                    <li><a href="deesse.html">Déesse</a></li>
                                 </ul>
                             </li>
 
