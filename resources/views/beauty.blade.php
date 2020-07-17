@@ -11,7 +11,7 @@
                 <div class="titleMassage">Déesse</div>
                 <div class="storyMassage">
                     <p class="massageP">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, nemo voluptas! Nostrum quae laborum laudantium earum inventore assumenda dicta! Odio beatae facere ullam aut magnam eaque velit vero, dolorum dignissimos odit illum natus adipisci et excepturi laudantium eveniet deserunt temporibus sed earum? Eveniet, vitae. Libero, neque nemo impedit ex cum quia eaque nulla, consequuntur minima maxime repellat aliquam. Quod assumenda doloremque sed ea ipsum tempore consequuntur odio nemo magnam pariatur, deleniti aut quae officiis libero.
+                        Déesse propose des soins du visages et du corps, mais aussi du maquillage ainsi que des compléments alimentaires. Présente dans plusieurs pays d'Europe, Déesse est une gamme d'origine Suisse. Fonctionnant avec un système de conseillères à domicile. Le produit phare de cette dernière étant l'huile d'abricot, c'est en partie grâce à ceci que la gamme s'est peu à peu fait connaître, comptant pas moins de 16 000 conseillères.
                     </p>
                 </div>
             </div>
@@ -26,13 +26,13 @@
                         Les produits de soin
                     </p>
                     <p class="massageP">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum sapiente, necessitatibus itaque ea quisquam distinctio ducimus. Aspernatur, et! Culpa animi facere aperiam nostrum earum, rem doloribus labore recusandae iure tenetur perspiciatis, ad assumenda eaque, aliquam vero aut tempore cumque cum officiis saepe officia? Quia, perspiciatis!
+                        Misant sur une gamme de produits à utilisation rapide (voulant ainsi toucher les hommes également, peu habitué au soin du visage et autre), aux textures légères et avant tout naturelles.
                     </p>
                     <p class="massageP">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia sequi magni quos quidem molestias ab dicta debitis eius dignissimos vitae.
+                        Déesse a alors pris en compte tous ces paramètres, visant ainsi femmes et hommes, proposant des produits à emporter dans son sac et discret.
                     </p>
                     <p class="massageP">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus facere voluptatibus voluptate dolor deserunt soluta maxime modi praesentium possimus. Aliquam!
+                        Cette gamme propose également des soins pour le corps adaptés pour petis et grands, entre crème, gel de douche, soins pour les cheveux mais aussi lotions bienfaisantes; il y a de quoi trouver son bonheur.
                     </p>
                 </div>
             </div>

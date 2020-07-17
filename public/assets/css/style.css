@@ -196,8 +196,6 @@ main {
     margin-right: auto;
 }
 
-
-
 /* Slideshow container */
 .slideshow-container {
   max-width: 100%;
@@ -392,52 +390,76 @@ h3 {
 }
 
 /****** FOOTER ******/
-footer {
-    max-width: 960px;
-    margin-left: auto;
-    margin-right: auto;
+.footer-distributed {
+    background-color: rgba(240, 183, 227, 0.623);
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: normal 16px sans-serif;
+    padding: 45px 50px;
+    position: static;
 }
 
-#container-footer {
-    height: 150px;
-    display: flex;
-    display: -webkit-flex;
-    justify-content: space-between;
-    font-family: 'Source Sans', sans-serif;
-    padding-top: 70px;
+.footer-distributed .footer-left p {
+    color: #8F9296;
+    font-size: 14px;
+    margin: 0;
 }
 
-.text-footer {
-    width: 70%;
-    font-size: 16px;
-    display: flex;
-    display: -webkit-flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.text-footer a {
-    color: #414042;
-}
-
-/****** UNDERLINE ANIMATION ******/
-.text-footer a:hover {
-    color: #FF007F;
-    text-decoration: underline;
-}
-
-.logos-reseaux img {
-    width: 35px;
-    text-align: center;
-    padding-top: 10px;
-}
-
-.copyright {
+.footer-distributed p .footer-links {
     font-size: 10px;
-    color: #C9bFC4;
-    line-height: 1em;
-    padding-top: 5px;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 0 0 10px;
+    padding: 0;
+    transition: ease .25s;
+}
+
+.footer-distributed p .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+    transition: ease .25s;
+}
+
+.footer-distributed .footer-links a:before {
+    content: ".";
+    font-size: 20px;
+    left: 0;
+    color: #fff;
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.footer-distributed .footer-right {
+    float: right;
+    margin-top: 6px;
+    max-width: 100px;
+}
+
+.footer-distributed .footer-right a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-color: #33383B;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-left: 3px;
+    transition: all .25s;
+}
+
+.footer-distributed .footer-right a:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+}
+
+.footer-distributed p .footer-links a:hover {
+    text-decoration: underline;
 }
 
 
@@ -448,18 +470,20 @@ footer {
     align-items: center;
     justify-content: center;
     background-color: #f1f1f1;
+    border: 2px solid red;
 }
 
 .about-section {
-    background: url(../img/FOOTER.jpg) no-repeat left;
+    background: url(../img/PICTURE_ABOUT.jpg) no-repeat left;
     background-size: 55%;
     background-color: #fdfdfd;
     overflow: hidden;
-    padding: 10px 0;
+    padding: 10px 10px;
+    padding-bottom: 50px;
 }
 
 .inner-container {
-    width: 55%;
+    width: 60%;
     float: right;
     background-color: #fdfdfd;
     padding: auto;
@@ -477,6 +501,7 @@ footer {
     line-height: 20px;
     text-align: justify;
     padding: 0;
+    padding-left: 15px;
 }
 
 /****** END ABOUT SECTION ******/
@@ -691,6 +716,12 @@ input {
     margin: 0 0 1rem 0;
 }
 
+#comment-btn {
+    border: 2px #FF007F solid;
+    border-radius: 10px;
+    padding: 5px 5px 5px 5px;
+}
+
 /****** CRYSTALS SHEET ******/
 .crystal-border {
     border: 2px solid #523e6c;
@@ -823,14 +854,28 @@ input {
 }
 
 @media (max-width: 600px) {
-    .episode_content {
+    .massage_content {
         grid-template-columns: 1fr;
     }
 }
 
 @media (max-width: 576px) {
-    .episode_content .story {
+    .massage_content .storyMassage {
         font-size: 15px;
     }
 }
 
+@media (max-width: 600px) {
+    .footer-distributed .footer-left, .footer-distributed .footer-right {
+        text-align: center;
+    }
+
+    .footer-distributed .footer-right {
+        float: none;
+        margin: 0 auto 20px;
+    }
+
+    .footer-distributed .footer-left p .footer-links {
+        line-height: 1.8;
+    }
+}

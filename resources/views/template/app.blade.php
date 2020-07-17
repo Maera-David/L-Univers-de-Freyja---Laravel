@@ -11,6 +11,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
     <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/img/FAVICON_LOGO/FAVICON.ico') }}">
+    <script src="https://kit.fontawesome.com/c2abdf73d8.js" crossorigin="anonymous"></script>
 </head>
 
 <body class="index">
@@ -23,7 +24,7 @@
             <div class="logo-menu flex">
                 <!-- LOGO -->
                 <div class="logo">
-                <a href="{{ Route('index') }}"><img src="https://picsum.photos/170/95" alt="logo Freyja"></a>
+                <a href="{{ Route('index') }}"><img src="{{ asset('assets/img/FAVICON_LOGO/LOGO_FREYJA_NAVBAR.jpg') }}" alt="logo Freyja"></a>
                 </div>
 
                 <!-- NAVBAR -->
@@ -46,7 +47,7 @@
 
                             <!-- MENU DEROULANT -->
                             <li class="menu-deroulant" id="nav_lithotherapy">
-                                <a href="lithotherapy.html">Lithotherapie</a>
+                                <a href="{{ Route('lithotherapy') }}">Lithotherapie</a>
                                 <ul class="menu-deroulant-content flex">
                                     <li class="submenu"><a href="{{ Route('lithotherapygrid') }}">Nos pierres</a></li>
                                 </ul>
@@ -60,9 +61,9 @@
                             <!-- MENU DEROULANT -->
                             <li class="menu-deroulant" id="nav_beauty">
                                 <a href="{{ Route('beauty') }}">Soins beauté</a>
-                                <ul class="menu-deroulant-content flex">
+                                <!--<ul class="menu-deroulant-content flex">
                                     <li><a href="deesse.html">Déesse</a></li>
-                                </ul>
+                                </ul>-->
                             </li>
 
                             <li>
@@ -107,25 +108,21 @@
 </main>
 
     <!-- START FOOTER -->
-    <footer>
-        <div id="container-footer">
-            <div class="text-footer">
-                <p>
-                    <a href="{{ Route('contactForm') }}">Contact</a> - <span class="color-gold">Partagez :</span>
-                </p>
-                <div class="logos-reseaux" id="logos-reseaux">
-                    <a href="https://www.facebook.com/universdefreyja/" target="blank" title="Facebook"><img src="image/logo_facebook" alt="Logo Facebook"></a>
-                    <a href="#" targrt="blank" title="Instagram"><img src="images/logo_instagram" alt="Logo Instagram"></a>
-                </div>
-                <p>
-                    <a href="politique_confidentialité.html">Politique de confidentialité</a> - <a href="plan_du_site.html">Plan du site</a>
-                </p>
+    <footer class="footer-distributed">
+                    <div class="footer-right">
+                        <a target="_blank" href="https://www.facebook.com/universdefreyja"><i class="fa fa-facebook"></i></a>
+                        <a target="_blank" href="https://instagram.com/freyjaunivers?igshid=1g5vqwhup6zg9"><i class="fa fa-instagram"></i></a>
+                    </div>
 
-                <p class="copyright">
-                    Copyright | L'Univers de Freyja | 2020 <i class="far far fa-copyright"></i>
-                </p>
-            </div>
-        </div>
+                    <div class="footer-left">
+                        <p class="footer-links">
+                            <a class="link1" href="#">A propos</a>
+                            <a href="#">Contact</a>
+                            <a href="#">Livre d'Or</a>
+                        </p>
+
+                        <p>L'Univers de Freyja &copy; 2020</p>
+                    </div>
     </footer>
 
     <!-- JS -->

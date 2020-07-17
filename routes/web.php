@@ -37,6 +37,8 @@ Route::view('/soins', 'beauty')->name('beauty');
 
 Route::get('/crystals/{id}', 'LithotherapyController@getOne')->name('crystalDescription');
 
+Route::view('/lithotherapie', 'lithotherapy')->name('lithotherapy');
+
 // $router->get('/', ['as' => 'index', function () {
 //     return view('index');
 // }]);

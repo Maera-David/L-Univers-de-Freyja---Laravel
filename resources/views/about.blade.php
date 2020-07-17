@@ -1,7 +1,7 @@
 @extends('template.app')
 
 @section('content')
-    <!-- START ABOUT SECTION -->
+
     <div class="about-section">
         <div class="inner-container">
             <h1>About Us</h1>
@@ -35,12 +35,7 @@
                 un accompagnement pour entrer en contact avec votre « MOI profond » afin de « guérir » le mal à la
                 racine.</p>
             </p>
-            <!-- <div class="skills">
-                <span>Maquillage</span>
-                <span>Bien-être</span>
-                <span>Massage</span>
-            </div>-->
         </div>
     </div>
-    <!-- END ABOUT SECTION -->
+
 @endsection

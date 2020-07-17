@@ -53,7 +53,7 @@
             <div class="texte-courant-decale-inverse">
                 <h3>Lithotherapie</h3>
                 <p>Tout savoir sur les pierres et leurs vertues.</p>
-                <div class="en-savoir-plus"><a href="lithotherapy.html">En savoir +</a></div>
+                <div class="en-savoir-plus"><a href="{{ Route('lithotherapy') }}">En savoir +</a></div>
             </div>
             <img src="{{ asset('assets/img/LITHOTHERAPY_001.jpg') }}" alt="Photo lithotherapie">
         </div>
@@ -71,7 +71,7 @@
             <div class="texte-courant-decale-inverse">
                 <h3>Produits de beauté</h3>
                 <p>Découvrez la gamme de produits qui fera de vous une Déesse.</p>
-                <div class="en-savoir-plus"><a href="wellbeing.html">En savoir +</a></div>
+                <div class="en-savoir-plus"><a href="{{ Route('beauty') }}">En savoir +</a></div>
             </div>
             <img src="{{ asset('assets/img/FAVICON_LOGO/DEESSE_001.png') }}" alt="Photo lithotherapie">
         </div>
