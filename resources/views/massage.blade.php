@@ -11,7 +11,7 @@
             <div class="titleMassage">Les massages</div>
             <div class="storyMassage">
                 <p class="massageP">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, nemo voluptas! Nostrum quae laborum laudantium earum inventore assumenda dicta! Odio beatae facere ullam aut magnam eaque velit vero, dolorum dignissimos odit illum natus adipisci et excepturi laudantium eveniet deserunt temporibus sed earum? Eveniet, vitae. Libero, neque nemo impedit ex cum quia eaque nulla, consequuntur minima maxime repellat aliquam. Quod assumenda doloremque sed ea ipsum tempore consequuntur odio nemo magnam pariatur, deleniti aut quae officiis libero.
+                    Les massages proposés par L'Univers de Freyja sont destinés à une clientèle féminine et aux tarifs abordables. Ils ont pour unique but de détendre et harmoniser les énergies, sans être medicaux comme chez un spécialiste. Trois types de massages existent dans ceux proposés par Sarah, et ils visent chacun un autre objectif, entre équilibrage enrgétique et pure détente, c'est à vous de choisir selon ce dont vous avez besoin !
                 </p>
             </div>
         </div>

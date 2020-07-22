@@ -16,25 +16,13 @@
 <!-- Slideshow container -->
 <div class="slideshow-container">
 
-    <!-- Full-width images with number and caption text -->
-    <div class="mySlides fade">
-      <img src="{{ asset('assets/img/CAROUSEL_001.jpg') }}" style="width:100%">
-    </div>
+    <!-- CAROUSEL -->
+        <div id="carousel">
+            <img src="{{ asset('assets/img/CAROUSEL_001.jpg') }}" alt="first">
+            <img src="{{ asset('assets/img/CAROUSEL_002.jpg') }}" alt="second">
+            <img src="{{ asset('assets/img/CAROUSEL_003.jpg') }}" alt="third">
+        </div>
 
-    <div class="mySlides fade">
-      <img src="{{ asset('assets/img/CAROUSEL_002.jpg') }}" style="width:100%">
-    </div>
-
-    <div class="mySlides fade">
-      <img src="{{ asset('assets/img/CAROUSEL_003.jpg') }}" style="width:100%">
-    </div>
-
-  <!-- The dots/circles -->
-  <div style="text-align:center">
-    <span class="dot" onclick="currentSlide(1)"></span>
-    <span class="dot" onclick="currentSlide(2)"></span>
-    <span class="dot" onclick="currentSlide(3)"></span>
-  </div>
         <!-- 1ST TEXT BLOCK -->
         <h1>L'Univers de Freyja</h1>
         <h2></h2>

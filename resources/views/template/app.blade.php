@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
     <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/img/FAVICON_LOGO/FAVICON.ico') }}">
     <script src="https://kit.fontawesome.com/c2abdf73d8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 </head>
 
 <body class="index">
@@ -24,7 +25,7 @@
             <div class="logo-menu flex">
                 <!-- LOGO -->
                 <div class="logo">
-                <a href="{{ Route('index') }}"><img src="{{ asset('assets/img/FAVICON_LOGO/LOGO_FREYJA_NAVBAR.jpg') }}" alt="logo Freyja"></a>
+                <a href="{{ Route('index') }}"><img src="{{ asset('assets/img/FAVICON_LOGO/LOGO_FREYJA_RECT.jpg') }}" alt="logo Freyja"></a>
                 </div>
 
                 <!-- NAVBAR -->
@@ -48,7 +49,7 @@
                             <!-- MENU DEROULANT -->
                             <li class="menu-deroulant" id="nav_lithotherapy">
                                 <a href="{{ Route('lithotherapy') }}">Lithotherapie</a>
-                                <ul class="menu-deroulant-content flex">
+                                <ul id="our-crystals" class="menu-deroulant-content hidden flex">
                                     <li class="submenu"><a href="{{ Route('lithotherapygrid') }}">Nos pierres</a></li>
                                 </ul>
                             </li>
@@ -116,9 +117,9 @@
 
                     <div class="footer-left">
                         <p class="footer-links">
-                            <a class="link1" href="#">A propos</a>
-                            <a href="#">Contact</a>
-                            <a href="#">Livre d'Or</a>
+                            <a class="link1" href="{{ Route('apropos') }}">A propos</a>
+                            <a href="{{ Route('contactForm') }}">Contact</a>
+                            <a href="{{ Route('goldBook') }}">Livre d'Or</a>
                         </p>
 
                         <p>L'Univers de Freyja &copy; 2020</p>
@@ -126,10 +127,12 @@
     </footer>
 
     <!-- JS -->
-    <script src="{{ asset('assets/js/option.js') }}"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="{{ asset('assets/js/option.js') }}"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 </body>
 
 </html>

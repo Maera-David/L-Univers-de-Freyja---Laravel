@@ -11,7 +11,7 @@
                 <div class="titleMassage">La lithothérapie</div>
                 <div class="storyMassage">
                     <p class="massageP">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, nemo voluptas! Nostrum quae laborum laudantium earum inventore assumenda dicta! Odio beatae facere ullam aut magnam eaque velit vero, dolorum dignissimos odit illum natus adipisci et excepturi laudantium eveniet deserunt temporibus sed earum? Eveniet, vitae. Libero, neque nemo impedit ex cum quia eaque nulla, consequuntur minima maxime repellat aliquam. Quod assumenda doloremque sed ea ipsum tempore consequuntur odio nemo magnam pariatur, deleniti aut quae officiis libero.
+                        Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters.
                     </p>
                 </div>
             </div>
@@ -23,16 +23,16 @@
                 <div class="titleMassage">Physique</div>
                 <div class="storyMassage">
                     <p class="massageP">
-                        Les effest physiques
+                        Les effets physiques
                     </p>
                     <p class="massageP">
-                        En visant l’harmonie du corps et de l’esprit, les massages énergétiques prévoient généralement un temps pour user de techniques de relaxation pure et un second temps pour effectuer des digito-pressions le long des méridiens, afin de provoquer le retour à l’équilibre du corps. Concrètement, et malgré son adjectif « énergétique », ils sont pratiqués avec douceur, afin de relâcher les tensions, de créer une sensation d’apaisement et de béatitude durable.
+                        Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors.
                     </p>
                     <p class="massageP">
-                        Ainsi, et contrairement aux idées reçues, ce sont les mouvements lents qui tonifient et recentrent l’énergie, tandis que les mouvements rapides retirent les blocages et permettent au Qi (énergie vitale) de circuler. Bienfaits Leurs apports bénéfiques se comptent par dizaine.
+                        ring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase.
                     </p>
                     <p class="massageP">
-                        Parmi eux, notons qu’ils améliorent la circulation sanguine et lymphatique, stimulent les muscles - en surface comme en profondeur - et aident à l’amincissement, grâce à sa technique de modelage qui casse les cellules. Dans une approche plus globale, les massages énergétiques permettent le retour à un bien-être, aussi bien physique qu’émotionnel : la relance du Qi brisera les blocages créés par le stress et l’énergie vitale naviguera – à nouveau – en toute liberté
+                        Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.
                     </p>
                 </div>
             </div>
@@ -47,13 +47,13 @@
                         Les effets psychiques
                     </p>
                     <p class="massageP">
-                        Le massage intuitif est un massage qui a pour but la relaxation et le bien-être de la personne. Il puise ses techniques dans le massage suédois, californien et énergétique mais il est pratiqué de manière intuitive. Le massage intuitif favorise la conscience de l'enveloppe corporelle et permet aux personnes de se remettre en lien avec leur corps et leurs sensations par des gestes doux et respectueux, il peut-être une aide à l'estime et à la réconciliation de soi.
+                        Trysail Sail ho Corsair red ensign hulk smartly boom jib rum gangway.
                     </p>
                     <p class="massageP">
-                        Sa pratique laisse une place à la communication. Cet échange participe à une relation de confiance et de respect : c'est un massage relationnel. Par la verbalisation du ressenti, Il permet de prendre conscience des effets du stress sur le corps : tensions, douleurs, sensations de gêne mais aussi des ressentis plus subtils comme la chaleur, la fluidité.
+                        Case shot Shiver me timbers gangplank crack Jennys tea cup ballast Blimey lee snow crow's nest rutters. Fluke jib scourge of the seven seas boatswain schooner gaff booty Jack Tar transom spirits.
                     </p>
                     <p class="massageP">
-                        Comme toute pratique de relaxation, il participe à la régulation du système nerveux et au relâchement des tensions, équilibre l'humeur et redonne le sourire... Le massage intuitif fait du bien sainement et son effet relaxant est immédiat !
+                        Lateen sail splice the main brace tackle barque sheet schooner pink crow's nest lookout Yellow Jack. Grapple draft ahoy Letter of Marque long boat nipperkin square-rigged spike booty yawl. Gangway jack long boat gally Letter of Marque wherry plunder pirate black spot red ensign.
                     </p>
                 </div>
             </div>

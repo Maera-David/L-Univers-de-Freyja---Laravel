@@ -10,6 +10,9 @@
         @enderror
         <br />
         <textarea name="Contenu" id="contact" type="text" placeholder="Votre message ici !"></textarea>
+        @error('Contenu')
+            <div class="alert alert-danger">{{ $message }}</div>
+        @enderror
         <br />
         <button type="submit" class="btnContact">Envoyer</button>
     </form>
